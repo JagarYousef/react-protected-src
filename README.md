@@ -5,7 +5,7 @@ With this hook you can use custom headers (e.g. JWT token) directly in `src` wit
 
 <br />
 
-###1. Installation:
+###Installation:
 
 
 ```shell
@@ -17,14 +17,14 @@ yarn add react-protected-src
 ```
 <br />
 
-###2. Import:
+###Import:
 
 ```javascript
 import {useProtectedSrc} from "react-protected-src";
 ```
 <br />
 
-###3. Usage inside your function component:
+###Usage inside your function component:
 ```javascript
 export function Page() {
     const base64 = useProtectedSrc('http://example.com/image.jpg', {'Authorization': 'Bearer SOME_TOKEN'})
