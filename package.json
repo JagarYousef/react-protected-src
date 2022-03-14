@@ -1,6 +1,7 @@
 {
   "name": "react-protected-src",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "type": "module",
   "description": "Use headers values when loading images in `src` attributes ",
   "main": "index.js",
   "scripts": {
