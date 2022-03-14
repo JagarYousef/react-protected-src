@@ -1,0 +1,36 @@
+{
+  "name": "react-protected-src",
+  "version": "1.0.0",
+  "description": "Use headers values when loading images in `src` attributes ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JagarYousef/react-protected-src.git"
+  },
+  "keywords": [
+    "react",
+    "src",
+    "img",
+    "jwt",
+    "token",
+    "protected",
+    "headers",
+    "fetch",
+    "next",
+    "nextjs",
+    "Image"
+  ],
+  "author": "Jagar Yousef <jagar.yousef@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JagarYousef/react-protected-src/issues"
+  },
+  "homepage": "https://github.com/JagarYousef/react-protected-src#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
