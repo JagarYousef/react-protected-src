@@ -5,7 +5,7 @@ With this hook you can use custom headers (e.g. JWT token) directly in `src` wit
 
 <br />
 
-##Installation:
+#### nextJS example:
 
 ```shell
 npm i react-protected-src
@@ -17,7 +17,7 @@ yarn add react-protected-src
 
 <br />
 
-##Import: 
+#### nextJS example:
 
 ```javascript
 import {useProtectedSrc} from "react-protected-src";
@@ -25,7 +25,8 @@ import {useProtectedSrc} from "react-protected-src";
 
 <br />
 
-##Usage inside your function component: 
+#### nextJS example:
+
 ```javascript
 export function Page() {
     const base64 = useProtectedSrc('http://example.com/image.jpg', {'Authorization': 'Bearer SOME_TOKEN'})
