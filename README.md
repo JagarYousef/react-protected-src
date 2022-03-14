@@ -3,9 +3,9 @@
 Use custom headers in `<img>` `src` attribute easily. <br />
 With this hook you can use custom headers (e.g. JWT token) directly in `src` without worrying about the extra steps, and then you get your clean code.
 
+<br />
 
-###Installation: <br />
-
+###Installation:
 
 ```shell
 npm i react-protected-src
@@ -15,14 +15,17 @@ or with yarn:
 yarn add react-protected-src
 ```
 
+<br />
 
-###Import: <br />
+###Import: 
 
 ```javascript
 import {useProtectedSrc} from "react-protected-src";
 ```
 
-###Usage inside your function component: <br />
+<br />
+
+###Usage inside your function component: 
 ```javascript
 export function Page() {
     const base64 = useProtectedSrc('http://example.com/image.jpg', {'Authorization': 'Bearer SOME_TOKEN'})
